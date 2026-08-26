@@ -1,5 +1,12 @@
-# daily-health
+# Daily Health
 
-Seguimiento local de comidas diarias: timeline por comida y resumen semanal/mensual.
+Local meal log: timeline by day, weekly and monthly overview.
 
-Estado: en definición — aún sin implementación.
+Run locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Data stays in the browser (`localStorage`). Dark mode only. No account.
