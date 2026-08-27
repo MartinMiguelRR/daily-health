@@ -16,7 +16,10 @@ export function entryFingerprint(entry: {
   return `${entry.date}|${entry.time}|${entry.meal}|${entry.food}|${entry.quantity}`
 }
 
-export function parseJsonLog(raw: string): JsonImportResult {
+export function parseJsonLog(
+  raw: string,
+  options?: { allowEmpty?: boolean },
+): JsonImportResult {
   let parsed: unknown
   try {
     parsed = JSON.parse(normalizeJsonText(raw))
@@ -74,7 +77,7 @@ export function parseJsonLog(raw: string): JsonImportResult {
           continue
         }
         entries.push({
-          id: newId(),
+          id: asText(item.id) || newId(),
           date,
           time,
           meal,
@@ -84,21 +87,22 @@ export function parseJsonLog(raw: string): JsonImportResult {
           protein: asNumber(item.protein),
           carbs: asNumber(item.carbs),
           fat: asNumber(item.fat),
-          createdAt: new Date().toISOString(),
+          createdAt: asText(item.createdAt) || new Date().toISOString(),
         })
       }
     }
   }
 
   if (entries.length === 0) {
+    if (options?.allowEmpty) return { ok: true, entries: [], skipped }
     return { ok: false, error: 'No valid food items found in this JSON.' }
   }
 
   return { ok: true, entries, skipped }
 }
 
-function toExportFood(entry: FoodEntry) {
-  return {
+function toExportFood(entry: FoodEntry, includeIds: boolean) {
+  const food = {
     food: entry.food,
     quantity: entry.quantity,
     calories: entry.calories,
@@ -106,16 +110,26 @@ function toExportFood(entry: FoodEntry) {
     carbs: entry.carbs,
     fat: entry.fat,
   }
+  if (!includeIds) return food
+  return {
+    id: entry.id,
+    createdAt: entry.createdAt,
+    ...food,
+  }
 }
 
-export function serializeEntries(entries: FoodEntry[]): string {
+export function serializeEntries(
+  entries: FoodEntry[],
+  options?: { includeIds?: boolean },
+): string {
+  const includeIds = options?.includeIds === true
   const days = [...groupByDay(entries)].sort((a, b) => a.date.localeCompare(b.date))
   const payload = days.map((day) => ({
     date: day.date,
     meals: day.meals.map((meal) => ({
       meal: meal.meal,
       time: meal.time,
-      entries: meal.entries.map(toExportFood),
+      entries: meal.entries.map((entry) => toExportFood(entry, includeIds)),
     })),
   }))
   return `${JSON.stringify(payload, null, 2)}\n`

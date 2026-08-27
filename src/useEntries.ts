@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { loadEntries, saveEntries } from './storage'
 import { entryFingerprint } from './jsonData'
 import { mealLabel, newId } from './nutrition'
@@ -22,11 +22,46 @@ function parseNum(value: string): number {
 }
 
 export function useEntries() {
-  const [entries, setEntries] = useState<FoodEntry[]>(() => loadEntries())
+  const [entries, setEntries] = useState<FoodEntry[]>([])
+  const [ready, setReady] = useState(false)
+  const [loadError, setLoadError] = useState('')
+  const [saveError, setSaveError] = useState('')
+  const skipSave = useRef(true)
 
   useEffect(() => {
-    saveEntries(entries)
-  }, [entries])
+    let cancelled = false
+    void loadEntries()
+      .then((loaded) => {
+        if (cancelled) return
+        setEntries(loaded)
+        setLoadError('')
+        setReady(true)
+      })
+      .catch((reason: unknown) => {
+        if (cancelled) return
+        setLoadError(reason instanceof Error ? reason.message : 'Could not load meals.')
+        setReady(true)
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!ready || loadError) return
+    if (skipSave.current) {
+      skipSave.current = false
+      return
+    }
+    const timer = window.setTimeout(() => {
+      void saveEntries(entries)
+        .then(() => setSaveError(''))
+        .catch((reason: unknown) => {
+          setSaveError(reason instanceof Error ? reason.message : 'Could not save meals.')
+        })
+    }, 300)
+    return () => window.clearTimeout(timer)
+  }, [entries, ready, loadError])
 
   const addEntry = useCallback((draft: EntryDraft) => {
     const entry: FoodEntry = {
@@ -150,6 +185,8 @@ export function useEntries() {
 
   return {
     entries,
+    ready,
+    error: loadError || saveError,
     addEntry,
     updateEntry,
     removeEntry,

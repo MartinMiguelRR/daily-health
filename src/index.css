@@ -149,6 +149,15 @@ p {
   margin-bottom: 28px;
 }
 
+.store-error {
+  margin: -16px 0 20px;
+  color: var(--danger);
+}
+
+.store-status {
+  margin: -16px 0 20px;
+}
+
 .brand {
   display: flex;
   align-items: center;

@@ -33,6 +33,8 @@ export default function App() {
     removeMeal,
     importEntries,
     mealLabels,
+    ready,
+    error,
   } = useEntries()
   const [view, setView] = useState<View>('timeline')
   const [draft, setDraft] = useState<EntryDraft>(() => emptyDraft())
@@ -124,6 +126,9 @@ export default function App() {
           </button>
         </nav>
       </header>
+
+      {error ? <p className="store-error">{error}</p> : null}
+      {!ready ? <p className="muted store-status">Loading meals…</p> : null}
 
       {view === 'timeline' ? (
         <main className="layout">

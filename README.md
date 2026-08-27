@@ -9,4 +9,4 @@ npm install
 npm run dev
 ```
 
-Data stays in the browser (`localStorage`). Dark mode only. No account.
+Meals are stored in `data/meals.json`. The first save of each day copies the previous file to `data/meals.prev.json`. Dark mode only. No account.
