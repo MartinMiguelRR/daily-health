@@ -1,0 +1,717 @@
+[
+  {
+    "date": "2026-08-25",
+    "meals": [
+      {
+        "meal": "Lunch",
+        "time": "16:40",
+        "entries": [
+          {
+            "id": "ee43306e-5125-4e80-be96-5ad6b6ccc9a1",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Soft-cut red meat (raw weight)",
+            "quantity": "231 g",
+            "calories": 330,
+            "protein": 48,
+            "carbs": 0,
+            "fat": 14
+          },
+          {
+            "id": "9b3bf0fe-08a0-4ba8-aa28-d935d6d366eb",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Potato omelette + 2 eggs",
+            "quantity": "235 g",
+            "calories": 370,
+            "protein": 17,
+            "carbs": 34,
+            "fat": 19
+          },
+          {
+            "id": "bf8cc77f-02ca-4bf0-a298-29f6d4a2b483",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Boiled white rice",
+            "quantity": "150 g",
+            "calories": 195,
+            "protein": 4,
+            "carbs": 42,
+            "fat": 0.5
+          },
+          {
+            "id": "413fe17f-f0a1-4d47-b5c1-9188f0d7a7a4",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Carrot salad + a little egg",
+            "quantity": "100 g",
+            "calories": 40,
+            "protein": 1,
+            "carbs": 9,
+            "fat": 0
+          },
+          {
+            "id": "08c5d763-6502-47ab-8b3b-57decd2437b7",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Mayonnaise",
+            "quantity": "1-2 tbsp",
+            "calories": 145,
+            "protein": 0,
+            "carbs": 0,
+            "fat": 16
+          }
+        ]
+      },
+      {
+        "meal": "Dinner",
+        "time": "23:00",
+        "entries": [
+          {
+            "id": "ca96e785-8ffc-4130-b688-80bcd988a063",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Cooked white rice",
+            "quantity": "160 g",
+            "calories": 208,
+            "protein": 4,
+            "carbs": 45,
+            "fat": 0.5
+          },
+          {
+            "id": "0f6d577e-4ca2-4992-b5d8-5eb03f7de106",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Pan-fried eggs",
+            "quantity": "149 g cooked",
+            "calories": 230,
+            "protein": 19,
+            "carbs": 2,
+            "fat": 16
+          },
+          {
+            "id": "117cd487-82a5-4009-b52a-31749ffa937b",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "2 pan-fried chicken milanesas",
+            "quantity": "243 g cooked",
+            "calories": 620,
+            "protein": 55,
+            "carbs": 33,
+            "fat": 28
+          },
+          {
+            "id": "4cb5a188-133f-4597-b4b0-d8473946090f",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Oil",
+            "quantity": "~1/2 tbsp",
+            "calories": 60,
+            "protein": 0,
+            "carbs": 0,
+            "fat": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "meals": [
+      {
+        "meal": "Lunch",
+        "time": "16:42",
+        "entries": [
+          {
+            "id": "4df2f408-7e97-4225-a2ba-d785b6bbb7e8",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Cooked pork ribs, edible portion",
+            "quantity": "328 g",
+            "calories": 625,
+            "protein": 61,
+            "carbs": 0,
+            "fat": 43
+          },
+          {
+            "id": "dcd4dc33-89f2-47e0-b57b-24ce6736cfa4",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Boiled pasta",
+            "quantity": "120 g",
+            "calories": 190,
+            "protein": 7,
+            "carbs": 37,
+            "fat": 1
+          },
+          {
+            "id": "031e2ff1-9c29-47a4-a711-8ad59b666eaa",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Carrot salad with half an egg",
+            "quantity": "100 g",
+            "calories": 70,
+            "protein": 3,
+            "carbs": 10,
+            "fat": 2
+          },
+          {
+            "id": "a3ab39b9-d049-4d6a-8f5b-2c065251fae0",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Mayonnaise",
+            "quantity": "1 small-medium tablespoon",
+            "calories": 75,
+            "protein": 0,
+            "carbs": 0,
+            "fat": 8
+          }
+        ]
+      },
+      {
+        "meal": "Snack",
+        "time": "18:00",
+        "entries": [
+          {
+            "id": "ff447d4f-87b9-442d-b187-ac7845135336",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Sweet cookies",
+            "quantity": "48 g",
+            "calories": 194,
+            "protein": 2.56,
+            "carbs": 30.4,
+            "fat": 7.04
+          },
+          {
+            "id": "f3409532-b8af-4102-9dad-3faa9adafc5d",
+            "createdAt": "2026-08-27T00:09:32.953Z",
+            "food": "Mate",
+            "quantity": "1 liter",
+            "calories": 0,
+            "protein": 0,
+            "carbs": 0,
+            "fat": 0
+          }
+        ]
+      },
+      {
+        "meal": "Dinner",
+        "time": "23:14",
+        "entries": [
+          {
+            "id": "842f3268-e966-4be9-b3d4-d41a5d19acfa",
+            "createdAt": "2026-08-27T02:39:55.276Z",
+            "food": "Boiled pasta (no oil, pinch of salt)",
+            "quantity": "140 g",
+            "calories": 222,
+            "protein": 8,
+            "carbs": 43,
+            "fat": 1.2
+          },
+          {
+            "id": "d106d8d0-d6f7-40c5-8ae2-3b383c002d84",
+            "createdAt": "2026-08-27T02:39:55.277Z",
+            "food": "Carrot salad with half an egg",
+            "quantity": "94 g",
+            "calories": 65,
+            "protein": 3,
+            "carbs": 9,
+            "fat": 2
+          },
+          {
+            "id": "a991d342-530a-4b48-bba2-4fa4b9926145",
+            "createdAt": "2026-08-27T02:39:55.277Z",
+            "food": "Lean red meat (raw/frozen weight)",
+            "quantity": "197 g",
+            "calories": 240,
+            "protein": 41,
+            "carbs": 0,
+            "fat": 8
+          },
+          {
+            "id": "5490bba1-0b8b-4edb-9737-ba7b46e56d79",
+            "createdAt": "2026-08-27T02:39:55.277Z",
+            "food": "Raw eggs (without shell)",
+            "quantity": "159 g",
+            "calories": 227,
+            "protein": 20,
+            "carbs": 1.1,
+            "fat": 15.1
+          },
+          {
+            "id": "777f312f-f2d9-43b1-a85e-15884f737971",
+            "createdAt": "2026-08-27T02:39:55.277Z",
+            "food": "Mayonnaise",
+            "quantity": "1 medium tablespoon",
+            "calories": 90,
+            "protein": 0.1,
+            "carbs": 0.5,
+            "fat": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "meals": [
+      {
+        "meal": "Lunch",
+        "time": "14:30",
+        "entries": [
+          {
+            "id": "7b0ea8e1-d710-4540-a8ba-0c1246caadf4",
+            "createdAt": "2026-08-27T21:38:15.610Z",
+            "food": "Pork ribs (edible meat portion, raw basis)",
+            "quantity": "200 g",
+            "calories": 554,
+            "protein": 31.2,
+            "carbs": 0,
+            "fat": 46.8
+          },
+          {
+            "id": "a1de56ca-4c59-44b7-9d19-0a9dbc039db7",
+            "createdAt": "2026-08-27T21:38:15.610Z",
+            "food": "Mashed potatoes (prepared batch portion)",
+            "quantity": "300 g",
+            "calories": 305,
+            "protein": 8.1,
+            "carbs": 48.9,
+            "fat": 9
+          },
+          {
+            "id": "3b84ff4e-0d23-4876-a5c7-fc3fdc191a57",
+            "createdAt": "2026-08-27T21:38:15.610Z",
+            "food": "Carrot salad",
+            "quantity": "88 g",
+            "calories": 36,
+            "protein": 0.8,
+            "carbs": 8.4,
+            "fat": 0.2
+          },
+          {
+            "id": "24be7bdf-9b40-4dd6-bfe7-aead57eec180",
+            "createdAt": "2026-08-27T21:38:15.610Z",
+            "food": "Mayonnaise",
+            "quantity": "1 medium tablespoon",
+            "calories": 90,
+            "protein": 0.1,
+            "carbs": 0.5,
+            "fat": 10
+          }
+        ]
+      },
+      {
+        "meal": "Snack",
+        "time": "18:32",
+        "entries": [
+          {
+            "id": "b05c323d-da0f-4851-a696-a4186379bbb6",
+            "createdAt": "2026-08-27T21:38:15.610Z",
+            "food": "Plain corn flakes (unsweetened)",
+            "quantity": "55 g",
+            "calories": 202,
+            "protein": 4.1,
+            "carbs": 46.2,
+            "fat": 0.5
+          },
+          {
+            "id": "c43391b9-8570-45a3-97fb-e4f5a8eb5913",
+            "createdAt": "2026-08-27T21:38:15.610Z",
+            "food": "Whole milk",
+            "quantity": "110 ml",
+            "calories": 67,
+            "protein": 3.5,
+            "carbs": 5.3,
+            "fat": 3.6
+          }
+        ]
+      },
+      {
+        "meal": "Dinner",
+        "time": "22:01",
+        "entries": [
+          {
+            "id": "2ae62986-917c-46ee-a685-ccc9cf9432ae",
+            "createdAt": "2026-08-28T04:32:57.819Z",
+            "food": "Cooked lean red meat",
+            "quantity": "144 g",
+            "calories": 360,
+            "protein": 37.4,
+            "carbs": 0,
+            "fat": 21.6
+          },
+          {
+            "id": "b412e234-04fb-471f-ab24-e97b79cc7c0a",
+            "createdAt": "2026-08-28T04:32:57.819Z",
+            "food": "Mashed potatoes (prepared batch portion)",
+            "quantity": "206 g",
+            "calories": 209,
+            "protein": 5.5,
+            "carbs": 33.6,
+            "fat": 6.2
+          }
+        ]
+      },
+      {
+        "meal": "Snack",
+        "time": "23:59",
+        "entries": [
+          {
+            "id": "28f4db63-dc20-4375-a754-095190e86f29",
+            "createdAt": "2026-08-28T04:32:57.819Z",
+            "food": "McDonald's McFlurry Oreo",
+            "quantity": "1 portion (approx. 200 g)",
+            "calories": 400,
+            "protein": 8,
+            "carbs": 62,
+            "fat": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
+    "meals": [
+      {
+        "meal": "Breakfast",
+        "time": "14:28",
+        "entries": [
+          {
+            "id": "1b3c7af2-8a5e-4d5b-804e-b4b3917717ff",
+            "createdAt": "2026-08-29T00:34:04.495Z",
+            "food": "Esfija (Arabian meat pie)",
+            "quantity": "84 g",
+            "calories": 218,
+            "protein": 9.2,
+            "carbs": 21.8,
+            "fat": 9.2
+          }
+        ]
+      },
+      {
+        "meal": "Lunch",
+        "time": "16:53",
+        "entries": [
+          {
+            "id": "84da5db4-5431-4267-8a68-d88df9e072f9",
+            "createdAt": "2026-08-29T00:34:04.495Z",
+            "food": "Baked kibbeh (quipe al horno)",
+            "quantity": "148 g",
+            "calories": 326,
+            "protein": 20,
+            "carbs": 25.2,
+            "fat": 16.3
+          },
+          {
+            "id": "9c4039b2-c36d-4914-b8cd-213e431b47c6",
+            "createdAt": "2026-08-29T00:34:04.495Z",
+            "food": "Baked potato",
+            "quantity": "227 g",
+            "calories": 211,
+            "protein": 5.7,
+            "carbs": 48.1,
+            "fat": 0.2
+          },
+          {
+            "id": "55572112-f9d1-483b-9709-705d033cc290",
+            "createdAt": "2026-08-29T00:34:04.495Z",
+            "food": "Avocado (with salt and lemon)",
+            "quantity": "132 g",
+            "calories": 211,
+            "protein": 2.6,
+            "carbs": 11.3,
+            "fat": 19.4
+          },
+          {
+            "id": "db853752-9223-4c91-a18e-7aeff3d07cd1",
+            "createdAt": "2026-08-29T00:34:04.495Z",
+            "food": "Chicken leg quarter (edible meat portion)",
+            "quantity": "248 g",
+            "calories": 575,
+            "protein": 59.5,
+            "carbs": 0,
+            "fat": 37.2
+          }
+        ]
+      },
+      {
+        "meal": "Snack",
+        "time": "21:40",
+        "entries": [
+          {
+            "id": "b0b24865-8fa3-4b5e-8253-9b51ccb1e66c",
+            "createdAt": "2026-08-29T00:42:13.334Z",
+            "food": "Quelopaleo",
+            "quantity": "50 g",
+            "calories": 260,
+            "protein": 12,
+            "carbs": 17,
+            "fat": 16
+          }
+        ]
+      },
+      {
+        "meal": "Dinner",
+        "time": "23:50",
+        "entries": [
+          {
+            "id": "8a11d9a5-4270-449a-9461-5722722451a8",
+            "createdAt": "2026-08-30T03:17:20.923Z",
+            "food": "Cooked lean red meat (carne roja)",
+            "quantity": "140 g",
+            "calories": 350,
+            "protein": 36.4,
+            "carbs": 0,
+            "fat": 21
+          },
+          {
+            "id": "424fb306-368f-4f1a-b3ea-c66509f28cac",
+            "createdAt": "2026-08-30T03:17:20.923Z",
+            "food": "Plain corn arepa (masa de harina de maíz, agua y sal)",
+            "quantity": "150 g",
+            "calories": 309,
+            "protein": 6.6,
+            "carbs": 66,
+            "fat": 2
+          },
+          {
+            "id": "e1e54155-b0e1-4d45-b7ec-747386d2991c",
+            "createdAt": "2026-08-30T03:17:20.923Z",
+            "food": "Avocado (palta)",
+            "quantity": "100 g",
+            "calories": 160,
+            "protein": 2,
+            "carbs": 8.5,
+            "fat": 14.7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
+    "meals": [
+      {
+        "meal": "Lunch",
+        "time": "13:30",
+        "entries": [
+          {
+            "id": "fd0142eb-dc8e-4d6b-bca4-f015dcf10c8e",
+            "createdAt": "2026-09-01T01:04:07.192Z",
+            "food": "Milanesas con noquis",
+            "quantity": "400g",
+            "calories": 1300,
+            "protein": 72,
+            "carbs": 110,
+            "fat": 68
+          }
+        ]
+      },
+      {
+        "meal": "Dinner",
+        "time": "21:34",
+        "entries": [
+          {
+            "id": "4fd97dfa-eeae-4eda-902f-99aea8c01273",
+            "createdAt": "2026-08-30T02:57:19.772Z",
+            "food": "Cooked lean red meat (bife de carne roja)",
+            "quantity": "84 g",
+            "calories": 210,
+            "protein": 21.8,
+            "carbs": 0,
+            "fat": 12.6
+          },
+          {
+            "id": "1dd50e48-bc02-4a1f-8558-5dec483781ab",
+            "createdAt": "2026-08-30T02:57:19.773Z",
+            "food": "Plain corn arepa (masa de harina de maíz, agua y sal)",
+            "quantity": "136 g",
+            "calories": 280,
+            "protein": 6,
+            "carbs": 59.8,
+            "fat": 1.8
+          },
+          {
+            "id": "a43757f6-8517-4206-aac3-2a7f34d973b4",
+            "createdAt": "2026-08-30T02:57:19.773Z",
+            "food": "Chicken milanesa (milanesa de pollo)",
+            "quantity": "145 g",
+            "calories": 319,
+            "protein": 29,
+            "carbs": 21.8,
+            "fat": 13.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-30",
+    "meals": [
+      {
+        "meal": "Lunch",
+        "time": "14:58",
+        "entries": [
+          {
+            "id": "91756cea-2f90-447b-aa70-482f87be1724",
+            "createdAt": "2026-08-30T21:38:37.671Z",
+            "food": "Baked beef empanadas (empanadas de carne al horno)",
+            "quantity": "240 g",
+            "calories": 624,
+            "protein": 25.2,
+            "carbs": 62.4,
+            "fat": 30
+          },
+          {
+            "id": "2ea39750-9f2b-40dc-95c4-ee0356d3b640",
+            "createdAt": "2026-08-30T21:38:37.674Z",
+            "food": "BBQ pork ribs (edible meat portion)",
+            "quantity": "109 g",
+            "calories": 311,
+            "protein": 26.2,
+            "carbs": 6.5,
+            "fat": 20.7
+          }
+        ]
+      },
+      {
+        "meal": "Snack",
+        "time": "16:05",
+        "entries": [
+          {
+            "id": "b196d57d-dc7d-486a-badd-9a8714e4d9a0",
+            "createdAt": "2026-08-30T21:38:37.674Z",
+            "food": "Grido Tentación Crema Cookies ice cream",
+            "quantity": "120 g",
+            "calories": 264,
+            "protein": 4.3,
+            "carbs": 34.8,
+            "fat": 12.6
+          },
+          {
+            "id": "4da52331-e554-4b6c-a1a3-4b0025eef136",
+            "createdAt": "2026-08-30T21:38:37.674Z",
+            "food": "Fresh strawberries (frutillas)",
+            "quantity": "150 g",
+            "calories": 48,
+            "protein": 1,
+            "carbs": 11.5,
+            "fat": 0.5
+          }
+        ]
+      },
+      {
+        "meal": "Dinner",
+        "time": "21:31",
+        "entries": [
+          {
+            "id": "34d6cf92-bffc-4dd8-80e2-5ecf9c169581",
+            "createdAt": "2026-09-01T00:57:15.120Z",
+            "food": "Traditional Tucuman baked beef empanadas",
+            "quantity": "150 g",
+            "calories": 383,
+            "protein": 16.5,
+            "carbs": 37.5,
+            "fat": 18
+          },
+          {
+            "id": "40d51397-b2e9-4d6b-b67d-6e8c968ec119",
+            "createdAt": "2026-09-01T00:57:15.120Z",
+            "food": "Avocado with lemon and salt (palta)",
+            "quantity": "100 g",
+            "calories": 160,
+            "protein": 2,
+            "carbs": 8.5,
+            "fat": 14.7
+          },
+          {
+            "id": "50e74571-5b30-4191-8dc7-81e91a06ae4d",
+            "createdAt": "2026-09-01T00:57:15.120Z",
+            "food": "BBQ pork ribs (edible meat portion - estimated 50%)",
+            "quantity": "145 g",
+            "calories": 413,
+            "protein": 34.8,
+            "carbs": 8.7,
+            "fat": 27.6
+          }
+        ]
+      },
+      {
+        "meal": "Snack 2",
+        "time": "22:37",
+        "entries": [
+          {
+            "id": "50a389b3-04d3-4c87-bec2-3bce21480071",
+            "createdAt": "2026-09-01T00:57:15.120Z",
+            "food": "Grido Tentación Crema Cookies ice cream",
+            "quantity": "100 g",
+            "calories": 220,
+            "protein": 3.6,
+            "carbs": 29,
+            "fat": 10.5
+          },
+          {
+            "id": "307f461f-075f-44df-9e2f-219d3829086a",
+            "createdAt": "2026-09-01T00:57:15.120Z",
+            "food": "Fresh strawberries (frutillas)",
+            "quantity": "80 g",
+            "calories": 26,
+            "protein": 0.5,
+            "carbs": 6.1,
+            "fat": 0.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "meals": [
+      {
+        "meal": "Lunch",
+        "time": "19:15",
+        "entries": [
+          {
+            "id": "6296c560-ca78-49e8-a2c0-b40806eed049",
+            "createdAt": "2026-09-01T00:54:08.654Z",
+            "food": "Baked chicken leg quarter (patamuslo deshuesado al horno)",
+            "quantity": "184 g",
+            "calories": 427,
+            "protein": 44.2,
+            "carbs": 0,
+            "fat": 27.6
+          },
+          {
+            "id": "f9877205-dae4-4ffa-bf58-707fdfed2c1b",
+            "createdAt": "2026-09-01T00:54:08.654Z",
+            "food": "Hard-boiled egg (huevo duro)",
+            "quantity": "50 g",
+            "calories": 78,
+            "protein": 6.3,
+            "carbs": 0.6,
+            "fat": 5.3
+          },
+          {
+            "id": "5b83bb41-470a-4728-b052-820807f72211",
+            "createdAt": "2026-09-01T00:54:08.654Z",
+            "food": "Baked chicken milanesa napolitana (milanesa de pollo napolitana al horno)",
+            "quantity": "125 g",
+            "calories": 263,
+            "protein": 22.5,
+            "carbs": 15,
+            "fat": 12.5
+          },
+          {
+            "id": "e1bf230e-0d0a-43a3-9063-832c8120ce33",
+            "createdAt": "2026-09-01T00:54:08.654Z",
+            "food": "Boiled white rice (arroz blanco hervido)",
+            "quantity": "200 g",
+            "calories": 260,
+            "protein": 5.4,
+            "carbs": 56,
+            "fat": 0.6
+          },
+          {
+            "id": "892be6e9-e96d-4d29-9efa-49771fd60515",
+            "createdAt": "2026-09-01T00:54:08.654Z",
+            "food": "Poached eggs (huevos poché)",
+            "quantity": "104 g",
+            "calories": 161,
+            "protein": 13.1,
+            "carbs": 1.1,
+            "fat": 11
+          }
+        ]
+      }
+    ]
+  }
+]

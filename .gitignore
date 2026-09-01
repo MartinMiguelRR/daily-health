@@ -30,8 +30,4 @@ Thumbs.db
 *.ntvs*
 *.njsproj
 *.sln
-# Meal data (kept on disk, not in git)
-data/meals.json
-data/meals.prev.json
-data/.backup-day
-data/*.tmp
+*.sw?
